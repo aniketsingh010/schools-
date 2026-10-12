@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 return ( 
@@ -35,54 +36,47 @@ return (
     <ul className="menu menu-horizontal items-center gap-1 px-1">
 
       <li>
-        <a href="/" className="font-semibold text-blue-900 hover:text-orange-500">
+        <Link to="/" className="font-semibold text-blue-900 hover:text-orange-500">
           Home
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/about" className="font-medium hover:text-orange-500">
+        <Link to="/about" className="font-medium hover:text-orange-500">
           About Us
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/academics" className="font-medium hover:text-orange-500">
+        <Link to="/academics" className="font-medium hover:text-orange-500">
           Academics
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/facilities" className="font-medium hover:text-orange-500">
+        <Link to="/facilities" className="font-medium hover:text-orange-500">
           Facilities
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/gallery" className="font-medium hover:text-orange-500">
+        <Link to="/gallery" className="font-medium hover:text-orange-500">
           Gallery
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/contact" className="font-medium hover:text-orange-500">
+        <Link to="/contact" className="font-medium hover:text-orange-500">
           Contact
-        </a>
+        </Link>
       </li>
-
       <li>
-        <a href="/fees" className="font-medium hover:text-orange-500">
-          Fees
-        </a>
-      </li>
-
-      <li>
-        <a
-          href="/admission"
+        <Link
+          to="/admission"
           className="bg-orange-500 text-white font-semibold hover:bg-orange-600 rounded-lg"
         >
           Admission
-        </a>
+        </Link>
       </li>
 
     </ul>
