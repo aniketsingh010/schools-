@@ -15,18 +15,15 @@ const About = () => {
           </p>
 
           <h1 className="text-3xl md:text-5xl font-bold mt-4">
-            Swadesh Saraswati Vidhya Mandir
+           स्वदेश सरस्वती विद्यालय मंदिर
           </h1>
 
           <h2 className="text-xl md:text-2xl font-semibold mt-3">
-            Inter College, Maharajganj, Raebareli
+            इंटर कॉलेज, महाराजगंज, रायबरेली
           </h2>
 
           <p className="max-w-3xl mx-auto mt-6 text-gray-200 leading-8">
-            Welcome to Swadesh Saraswati Vidhya Mandir Inter College.
-            Our website provides information about our school, academic
-            programmes, facilities and educational activities for
-            students from Class 6 to Class 12.
+           स्वदेश सरस्वती विद्या मंदिर इण्टर कालेज में आपका स्वागत है। हमारी वेबसाइट हमारे स्कूल, शैक्षिक कार्यक्रमों, सुविधाओं और कक्षा 6 से कक्षा 12 तक के छात्रों के लिए शैक्षिक गतिविधियों की जानकारी प्रदान करती है।
           </p>
         </div>
       </section>
@@ -47,26 +44,19 @@ const About = () => {
           {/* Text Section */}
           <div>
             <p className="text-orange-500 font-bold uppercase tracking-widest">
-              Welcome to Our School
+             हमारे स्कूल में आपका स्वागत है
             </p>
 
             <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
-              Building Knowledge, Values and Confidence
+            ज्ञान, मूल्य और आत्मविश्वास बनाना
             </h2>
 
             <p className="text-gray-600 mt-5 leading-8">
-              Swadesh Saraswati Vidhya Mandir Inter College,
-              Maharajganj, Raebareli, is the school featured on
-              this website. Explore information about its academic
-              programmes for Classes 6 to 12 and discover the
-              different aspects of school life.
+ स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज, महाराजगंज, रायबरेली, इस वेबसाइट पर दिखाया गया स्कूल है। कक्षा 6 से 12 तक के इसके शैक्षणिक कार्यक्रमों के बारे में जानकारी लें और स्कूल जीवन के अलग-अलग पहलुओं को जानें।
             </p>
 
             <p className="text-gray-600 mt-4 leading-8">
-              Education helps students develop knowledge, discipline,
-              confidence and a sense of responsibility. Our website
-              aims to make school information easy for parents,
-              students and visitors to explore.
+           शिक्षा छात्रों को ज्ञान, अनुशासन, आत्मविश्वास और जिम्मेदारी की भावना विकसित करने में मदद करती है। हमारी वेबसाइट का मकसद स्कूल की जानकारी को माता-पिता, छात्रों और विज़िटर्स के लिए आसान बनाना है ताकि वे इसे आसानी से एक्सप्लोर कर सकें।
             </p>
 
             <a
@@ -105,8 +95,7 @@ const About = () => {
               </h3>
 
               <p className="text-gray-600 mt-4 leading-8">
-                To encourage students to pursue knowledge, develop
-                positive values and work towards a bright future.
+               छात्रों को ज्ञान हासिल करने, सकारात्मक मूल्य विकसित करने और उज्जवल भविष्य की दिशा में काम करने के लिए प्रोत्साहित करना।
               </p>
             </div>
 
@@ -119,8 +108,7 @@ const About = () => {
               </h3>
 
               <p className="text-gray-600 mt-4 leading-8">
-                To highlight the importance of learning, discipline,
-                responsibility and the overall development of students.
+               सीखने, अनुशासन, जिम्मेदारी और छात्रों के समग्र विकास के महत्व को उजागर करने के लिए।
               </p>
             </div>
 
@@ -151,40 +139,40 @@ const About = () => {
             <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
               <div className="text-4xl">📚</div>
               <h3 className="text-xl font-bold text-blue-950 mt-4">
-                Education
+             शिक्षा
               </h3>
               <p className="text-gray-600 mt-3 leading-7">
-                Learning and academic development for students.
+               छात्रों के लिए सीखना और अकादमिक विकास।
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
               <div className="text-4xl">🤝</div>
               <h3 className="text-xl font-bold text-blue-950 mt-4">
-                Discipline
+            अनुशासन
               </h3>
               <p className="text-gray-600 mt-3 leading-7">
-                Developing responsibility and good habits.
+               जिम्मेदारी और अच्छी आदतें विकसित करना।
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
               <div className="text-4xl">🏆</div>
               <h3 className="text-xl font-bold text-blue-950 mt-4">
-                Activities
+               गतिविधियाँ
               </h3>
               <p className="text-gray-600 mt-3 leading-7">
-                Discover sports and extracurricular opportunities.
+              खेल और अतिरिक्त पाठ्यक्रम के अवसर खोजें।
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
               <div className="text-4xl">🌟</div>
               <h3 className="text-xl font-bold text-blue-950 mt-4">
-                Development
+             विकास
               </h3>
               <p className="text-gray-600 mt-3 leading-7">
-                Encouraging confidence and personal growth.
+            आत्मविश्वास और व्यक्तिगत विकास को प्रोत्साहित करना।
               </p>
             </div>
 
@@ -201,14 +189,14 @@ const About = () => {
           </p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
-            Classes from 6 to 12
+       कक्षा 6 से 12 तक
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mt-10">
 
             <div className="p-7 rounded-2xl bg-blue-50 border border-blue-100">
               <h3 className="text-2xl font-bold text-blue-950">
-                Classes 6–8
+          कक्षा 6 से 8 तक
               </h3>
               <p className="text-gray-600 mt-3">
                 Middle School
@@ -217,7 +205,7 @@ const About = () => {
 
             <div className="p-7 rounded-2xl bg-orange-50 border border-orange-100">
               <h3 className="text-2xl font-bold text-blue-950">
-                Classes 9–10
+                कक्षा 9 से 10 तक
               </h3>
               <p className="text-gray-600 mt-3">
                 Secondary School
@@ -226,7 +214,7 @@ const About = () => {
 
             <div className="p-7 rounded-2xl bg-green-50 border border-green-100">
               <h3 className="text-2xl font-bold text-blue-950">
-                Classes 11–12
+             कक्षा 11 से 12 तक
               </h3>
               <p className="text-gray-600 mt-3">
                 Senior Secondary
@@ -247,8 +235,7 @@ const About = () => {
           </h2>
 
           <p className="text-blue-100 mt-4 leading-7">
-            Explore the academic information available for students
-            from Class 6 to Class 12.
+          क्लास 6 से क्लास 12 तक के छात्रों के लिए उपलब्ध अकादमिक जानकारी एक्सप्लोर करें।
           </p>
 
           <a
