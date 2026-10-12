@@ -109,20 +109,20 @@ return (
       tabIndex={0}
       className="menu dropdown-content bg-base-100 rounded-box z-50 mt-3 w-56 p-3 shadow-lg"
     >
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About Us</a></li>
-      <li><a href="/academics">Academics</a></li>
-      <li><a href="/facilities">Facilities</a></li>
-      <li><a href="/gallery">Gallery</a></li>
-      <li><a href="/contact">Contact</a></li>
-      <li><a href="/fees">Fees</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/about">About Us</Link></li>
+      <li><Link to="/academics">Academics</Link></li>
+      <li><Link to="/facilities">Facilities</Link></li>
+      <li><Link to="/gallery">Gallery</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
+      <li><Link href="/fees">Fees</Link></li>
       <li>
-        <a
+        <Link
           href="/admission"
           className="bg-orange-500 text-white font-semibold hover:bg-orange-600"
         >
           Admission
-        </a>
+        </Link>
       </li>
     </ul>
 
