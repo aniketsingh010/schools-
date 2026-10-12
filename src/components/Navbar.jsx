@@ -115,7 +115,7 @@ return (
       <li><Link to="/facilities">Facilities</Link></li>
       <li><Link to="/gallery">Gallery</Link></li>
       <li><Link to="/contact">Contact</Link></li>
-      <li><Link href="/fees">Fees</Link></li>
+     
       <li>
         <Link
           href="/admission"
