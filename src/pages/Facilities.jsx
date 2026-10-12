@@ -106,16 +106,14 @@ const Facilities = () => {
             </span>
 
             <h1 className="mt-6 max-w-3xl text-4xl font-extrabold leading-tight md:text-6xl">
-              A Better Environment
+        एक बेहतर पर्यावरण
               <span className="block text-yellow-400">
-                for Better Learning
+           बेहतर सीखने के लिए
               </span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-blue-100 md:text-lg">
-              Explore the learning resources and facilities that support
-              students from Classes 6 to 12 at Swadesh Saraswati Vidhya Mandir
-              Inter College, Maharajganj, Raebareli.
+स्वदेश सरस्वती विद्या मंदिर इण्टर कॉलेज, महाराजगंज, रायबरेली में कक्षा 6 से 12 तक के छात्रों के लिए उपलब्ध लर्निंग संसाधनों और सुविधाओं का अन्वेषण करें।
             </p>
 
             <a
@@ -131,17 +129,15 @@ const Facilities = () => {
         <section className="mx-auto max-w-7xl px-6 py-16">
           <div className="mx-auto max-w-3xl text-center">
             <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
-              Learning Environment
+            सीखने का माहौल
             </span>
 
             <h2 className="mt-3 text-3xl font-extrabold text-gray-900 md:text-4xl">
-              Facilities for Student Development
+छात्र विकास के लिए सुविधाएँ
             </h2>
 
             <p className="mt-5 leading-8 text-gray-600">
-              A supportive school environment gives students opportunities
-              to learn, ask questions, develop skills and participate in
-              activities. Explore the facilities listed below.
+एक सहायक स्कूल का वातावरण छात्रों को सीखने, सवाल पूछने, कौशल विकसित करने और गतिविधियों में भाग लेने के अवसर देता है। नीचे सूचीबद्ध सुविधाओं का पता लगाएँ।
             </p>
           </div>
         </section>
@@ -189,9 +185,7 @@ const Facilities = () => {
               </h2>
 
               <p className="mt-5 leading-8 text-blue-100">
-                Education also involves practical activities, teamwork,
-                creativity and learning new skills. These experiences can
-                help students become more confident and independent.
+शिक्षा में व्यावहारिक गतिविधियाँ, टीमवर्क, रचनात्मकता और नई क्षमताएँ सीखना भी शामिल है। ये अनुभव छात्रों को अधिक आत्मविश्वासी और स्वतंत्र बनने में मदद कर सकते हैं।
               </p>
 
               <a
@@ -204,16 +198,15 @@ const Facilities = () => {
 
             <div>
               <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
-                Why Facilities Matter
+           सुविधाएँ क्यों मायने रखती हैं
               </span>
 
               <h2 className="mt-3 text-3xl font-extrabold text-gray-900 md:text-4xl">
-                Supporting Every Student
-              </h2>
+              हर छात्र का समर्थन करना
+             </h2>
 
               <p className="mt-5 leading-8 text-gray-600">
-                Learning resources and school activities can help students
-                develop important academic, social and personal skills.
+लर्निंग रिसोर्सेज और स्कूल की गतिविधियाँ छात्रों को महत्वपूर्ण अकादमिक, सामाजिक और व्यक्तिगत कौशल विकसित करने में मदद कर सकती हैं।
               </p>
 
               <div className="mt-8 space-y-6">
@@ -245,12 +238,11 @@ const Facilities = () => {
           <div className="mx-auto max-w-7xl px-6">
             <div className="mx-auto mb-12 max-w-3xl text-center">
               <h2 className="text-3xl font-extrabold text-gray-900 md:text-4xl">
-                Facilities for Classes 6–12
+           कक्षा 6–12 के लिए सुविधाएँ
               </h2>
 
               <p className="mt-4 leading-7 text-gray-600">
-                Learning needs change as students progress through different
-                stages of education.
+            जैसे-जैसे छात्र शिक्षा के अलग-अलग चरणों से गुजरते हैं, उनकी सीखने की जरूरतें बदलती रहती हैं। 
               </p>
             </div>
 
@@ -261,19 +253,17 @@ const Facilities = () => {
                   Classes 6–8
                 </h3>
                 <p className="mt-3 leading-7 text-gray-600">
-                  Encourage curiosity, reading habits, basic computer
-                  knowledge and a strong foundation in core subjects.
+जिज्ञासा, पढ़ाई की आदतें, बेसिक कंप्यूटर ज्ञान और मुख्य विषयों की मजबूत नींव को बढ़ावा दें।
                 </p>
               </div>
 
               <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-lg">
                 <div className="text-4xl">📚</div>
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
-                  Classes 9–10
+               कक्षाएँ 9–10
                 </h3>
                 <p className="mt-3 leading-7 text-gray-600">
-                  Support subject understanding, practical learning,
-                  revision and examination preparation.
+विषय की समझ, व्यावहारिक सीख, दोहराई और परीक्षा की तैयारी में मदद करें।
                 </p>
               </div>
 
@@ -283,8 +273,7 @@ const Facilities = () => {
                   Classes 11–12
                 </h3>
                 <p className="mt-3 leading-7 text-gray-600">
-                  Support advanced subject learning and future academic
-                  planning according to the available courses.
+                उपलब्ध पाठ्यक्रमों के अनुसार उन्नत विषय सीखने और भविष्य की शैक्षिक योजना का समर्थन करें।
                 </p>
               </div>
             </div>
@@ -296,11 +285,11 @@ const Facilities = () => {
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-center md:flex-row md:text-left">
             <div>
               <h2 className="text-2xl font-extrabold text-blue-950 md:text-3xl">
-                Want to Know More About Our Facilities?
+             हमारी सुविधाओं के बारे में और जानना चाहते हैं?
               </h2>
 
               <p className="mt-3 text-blue-950/80">
-                Contact the school to confirm currently available facilities.
+वर्तमान में उपलब्ध सुविधाओं की पुष्टि के लिए स्कूल से संपर्क करें।
               </p>
             </div>
 

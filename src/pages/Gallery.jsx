@@ -12,7 +12,88 @@ image:
 description: "A look at the school environment.",
 },
 {
-id: 2,
+ id: 2,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 20,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 3,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 4,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 5,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 6,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 7,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+ id: 8,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+
+{
+ id: 9,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.", 
+},
+{
+id: 10,
+title: "School Campus",
+category: "Campus",
+image:
+"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+description: "A look at the school environment.",
+},
+{
+id: 11,
 title: "Classroom Learning",
 category: "Classroom",
 image:
@@ -20,7 +101,7 @@ image:
 description: "Students learning in a classroom environment.",
 },
 {
-id: 3,
+id: 12,
 title: "Library & Reading",
 category: "Activities",
 image:
@@ -28,7 +109,7 @@ image:
 description: "Reading and exploring new ideas.",
 },
 {
-id: 4,
+id: 13,
 title: "Sports Activities",
 category: "Sports",
 image:
@@ -36,7 +117,7 @@ image:
 description: "Sports, teamwork and participation.",
 },
 {
-id: 5,
+id: 14,
 title: "Science Learning",
 category: "Activities",
 image:
@@ -44,7 +125,7 @@ image:
 description: "Discovering science through learning.",
 },
 {
-id: 6,
+id: 15,
 title: "School Celebration",
 category: "Events",
 image:
@@ -52,7 +133,7 @@ image:
 description: "Memorable moments and celebrations.",
 },
 {
-id: 7,
+id: 16,
 title: "Creative Activities",
 category: "Activities",
 image:
@@ -60,7 +141,7 @@ image:
 description: "Creativity, imagination and expression.",
 },
 {
-id: 8,
+id: 17,
 title: "Outdoor Activities",
 category: "Sports",
 image:
@@ -68,7 +149,7 @@ image:
 description: "Participation in outdoor activities.",
 },
 {
-id: 9,
+id: 18,
 title: "Learning Together",
 category: "Classroom",
 image:
@@ -110,7 +191,7 @@ return (
 
     <div className="relative mx-auto max-w-7xl px-6 py-20 text-center md:py-28">
       <span className="inline-block rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold">
-        📸 School Memories
+        📸 स्कूल की यादें
       </span>
 
       <h1 className="mt-6 text-4xl font-extrabold md:text-6xl">
@@ -119,9 +200,7 @@ return (
       </h1>
 
       <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-blue-100 md:text-lg">
-        Explore moments of learning, creativity, sports and school life
-        at Swadesh Saraswati Vidhya Mandir Inter College, Maharajganj,
-        Raebareli.
+      स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज, महाराजगंज, रायबरेली में सीखने, रचनात्मकता, खेल और स्कूल जीवन के पल का अनुभव करें।
       </p>
 
       <a
@@ -137,17 +216,15 @@ return (
   <section className="mx-auto max-w-7xl px-6 pb-8 pt-16">
     <div className="mx-auto max-w-3xl text-center">
       <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
-        Memories & Moments
+        यादें और पल
       </span>
 
       <h2 className="mt-3 text-3xl font-extrabold text-gray-900 md:text-4xl">
-        Life at Our School
+      हमारे स्कूल में जिंदगी
       </h2>
 
       <p className="mt-5 leading-8 text-gray-600">
-        Every school day brings opportunities to learn, participate and
-        create memories. Browse the categories to explore different
-        aspects of school life.
+       हर स्कूल का दिन सीखने, भाग लेने और यादें बनाने के मौके लाता है। स्कूल जीवन के विभिन्न पहलुओं को एक्सप्लोर करने के लिए श्रेणियों को ब्राउज़ करें।
       </p>
     </div>
   </section>
@@ -215,7 +292,7 @@ return (
 
     {filteredItems.length === 0 && (
       <p className="py-10 text-center text-gray-500">
-        No photos available in this category.
+इस श्रेणी में कोई फ़ोटो उपलब्ध नहीं है।
       </p>
     )}
   </section>
@@ -270,11 +347,11 @@ return (
     <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-center md:flex-row md:text-left">
       <div>
         <h2 className="text-2xl font-extrabold text-blue-950 md:text-3xl">
-          Be Part of Our School Journey
+हमारे स्कूल की यात्रा का हिस्सा बनें
         </h2>
 
         <p className="mt-3 text-blue-950/80">
-          Learn more about our school and academic programs.
+हमारे स्कूल और शैक्षणिक कार्यक्रमों के बारे में और जानें।
         </p>
       </div>
 
@@ -282,7 +359,7 @@ return (
         href="/about"
         className="shrink-0 rounded-lg bg-blue-950 px-7 py-4 font-bold text-white transition hover:bg-blue-900"
       >
-        About Our School →
+     हमारे स्कूल के बारे में →
       </a>
     </div>
   </section>

@@ -117,9 +117,8 @@ return (
       </h1>
 
       <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-blue-100 md:text-lg">
-        Have questions about academics, admissions or school facilities?
-        Get in touch with Swadesh Saraswati Vidhya Mandir Inter College,
-        Maharajganj, Raebareli.
+       शैक्षणिक मुद्दों, प्रवेश या स्कूल सुविधाओं के बारे में सवाल हैं?  
+स्वदेश सरस्वती विद्या मंदिर इण्टर कॉलेज, महाराजगंज, रायबरेली से संपर्क करें।
       </p>
     </div>
   </section>
@@ -136,7 +135,7 @@ return (
       </h2>
 
       <p className="mt-4 leading-7 text-gray-600">
-        Find contact information and send your enquiry using the form below.
+संपर्क जानकारी ढूंढें और नीचे दिए फॉर्म का इस्तेमाल करके अपनी पूछताछ भेजें।
       </p>
     </div>
 
@@ -177,9 +176,7 @@ return (
         </h2>
 
         <p className="mt-5 leading-8 text-blue-100">
-          Send your questions about admission, academic programs or school
-          information. The form below is a frontend demonstration until
-          a working message service is connected.
+       प्रवेश, अकादमिक कार्यक्रम या स्कूल की जानकारी के बारे में अपने सवाल भेजें। नीचे वाला फॉर्म केवल एक फ्रंटेंड डेमो है जब तक कि कोई काम करने वाली संदेश सेवा जुड़ी नहीं होती।
         </p>
 
         <div className="mt-10 space-y-6">
@@ -191,7 +188,7 @@ return (
             <div>
               <h3 className="font-bold">Visit Our School</h3>
               <p className="mt-2 text-sm leading-6 text-blue-100">
-                Maharajganj, Raebareli, Uttar Pradesh, India
+                महराजगंज, रायबरेली, उत्तर प्रदेश, भारत
               </p>
             </div>
           </div>
@@ -204,8 +201,7 @@ return (
             <div>
               <h3 className="font-bold">Admission Enquiries</h3>
               <p className="mt-2 text-sm leading-6 text-blue-100">
-                Ask the school office about classes, eligibility and
-                required documents.
+              क्लासेस, योग्यता और आवश्यक दस्तावेज़ों के बारे में स्कूल ऑफिस से पूछो।
               </p>
             </div>
           </div>
@@ -218,7 +214,7 @@ return (
             <div>
               <h3 className="font-bold">General Enquiries</h3>
               <p className="mt-2 text-sm leading-6 text-blue-100">
-                Use the form to prepare your message for the school.
+               स्कूल के लिए अपना संदेश तैयार करने के लिए फॉर्म का इस्तेमाल करें।
               </p>
             </div>
           </div>
@@ -230,8 +226,7 @@ return (
           </p>
 
           <p className="mt-2 text-sm leading-6 text-blue-100">
-            Please confirm the official phone number, email address and
-            office hours before publishing this page.
+          कृपया इस पेज को प्रकाशित करने से पहले आधिकारिक फोन नंबर, ईमेल पता और कार्यालय के समय की पुष्टि करें।
           </p>
         </div>
       </div>

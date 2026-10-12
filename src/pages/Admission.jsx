@@ -91,9 +91,7 @@ export default function Admission() {
           </h1>
 
           <p className="mb-8 max-w-2xl text-lg leading-8 text-blue-100">
-            Swadesh Saraswati Vidhya Mandir Inter College mein
-            admission se judi jaankari prapt karein. Apne bachche
-            ki education journey ke liye school se sampark karein.
+स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज में दाखिले से जुड़ी जानकारी प्राप्त करें। अपने बच्चे की पढ़ाई की यात्रा के लिए स्कूल से संपर्क करें।
           </p>
 
           <a
@@ -121,8 +119,7 @@ export default function Admission() {
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-slate-600">
-              Class availability, eligibility aur admission dates
-              ke liye school office se confirmation lein.
+क्लास की उपलब्धता, पात्रता और एडमिशन की तारीखों के लिए स्कूल ऑफिस से कन्फर्म करें।
             </p>
           </div>
 
@@ -225,9 +222,7 @@ export default function Admission() {
             </h2>
 
             <p className="mt-4 leading-7 text-slate-600">
-              Neeche diye gaye documents aam taur par admission
-              mein maange ja sakte hain. Final list school office
-              se confirm karein.
+             नीचे दिए गए दस्तावेज आम तौर पर एडमिशन में मांगे जा सकते हैं। फाइनल लिस्ट स्कूल ऑफिस से कन्फर्म करें।
             </p>
 
             <div className="mt-7 space-y-4">
@@ -251,9 +246,7 @@ export default function Admission() {
             </h3>
 
             <p className="mt-4 leading-8 text-blue-100">
-              Admission ki dates, eligibility, available seats aur
-              fees ke baare mein jaankari lene ke liye school office
-              se sampark karein.
+           एडमिशन की डेट्स, योग्यता, उपलब्ध सीटें और फीस के बारे में जानकारी लेने के लिए स्कूल ऑफिस से संपर्क करें।
             </p>
 
             <a
@@ -279,9 +272,7 @@ export default function Admission() {
             </h2>
 
             <p className="mt-4 text-blue-100">
-              Form fill karein. Admission team se sampark karne ke
-              liye school ko actual backend ya contact system se
-              connect karna hoga.
+              फॉर्म भरें। एडमिशन टीम से संपर्क करने के लिए स्कूल को असली बैकएंड या कॉन्टैक्ट सिस्टम से कनेक्ट करना होगा।
             </p>
           </div>
 
@@ -294,8 +285,7 @@ export default function Admission() {
                 role="status"
                 className="mb-6 rounded-lg bg-green-100 p-4 text-green-800"
               >
-                Demo form submit ho gaya! Abhi data save ya school
-                ko send nahi hua hai.
+              Demo form has been submitted! The data hasn't been saved or sent to the school yet.
               </div>
             )}
 
@@ -410,8 +400,7 @@ export default function Admission() {
             </button>
 
             <p className="mt-4 text-center text-sm text-slate-500">
-              Yeh abhi frontend demo hai. Real enquiry receive karne
-              ke liye backend ya form service connect karni hogi.
+
             </p>
           </form>
         </div>

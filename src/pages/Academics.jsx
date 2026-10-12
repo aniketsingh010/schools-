@@ -100,24 +100,21 @@ return (
         </span>
 
         <h1 className="mt-6 text-4xl font-extrabold leading-tight md:text-6xl">
-          Learn Today,
+          आज सीखो,
           <span className="block text-yellow-400">
-            Lead Tomorrow
+            कल नेतृत्व करें
           </span>
         </h1>
 
         <p className="mt-6 max-w-2xl text-base leading-8 text-blue-100 md:text-lg">
-          Explore academic information for Classes 6 to 12 at Swadesh
-          Saraswati Vidhya Mandir Inter College, Maharajganj, Raebareli.
-          Our aim is to support students in learning, growth and future
-          preparation.
+स्वदेश सरस्वती विद्य मंदिर इंटर कॉलेज, महाराजगंज, रायबरेली में कक्षा 6 से 12 तक की शैक्षणिक जानकारी का पता लगाएँ। हमारा उद्देश्य छात्रों को सीखने, विकास और भविष्य की तैयारी में मदद करना है।
         </p>
 
         <a
           href="#class-programs"
           className="mt-8 inline-block rounded-lg bg-yellow-400 px-7 py-3.5 font-bold text-blue-950 shadow-lg transition hover:-translate-y-1 hover:bg-yellow-300"
         >
-          Explore Classes ↓
+    क्लासेस देखें ↓
         </a>
       </div>
     </div>
@@ -135,9 +132,7 @@ return (
       </h2>
 
       <p className="mt-5 leading-8 text-gray-600">
-        Every stage of education helps students develop knowledge,
-        independent thinking and confidence. Explore the class levels
-        below to learn more about the academic structure.
+       शिक्षा का हर स्तर छात्रों को ज्ञान, स्वतंत्र सोच और आत्मविश्वास विकसित करने में मदद करता है। नीचे दिए गए कक्षा स्तरों को देखें और शैक्षणिक संरचना के बारे में और जानें। ...
       </p>
     </div>
   </section>
@@ -149,7 +144,7 @@ return (
         Our Class Programs
       </h2>
       <p className="mt-3 text-gray-600">
-        Academic levels from Class 6 to Class 12
+कक्षा 6 से कक्षा 12 तक का शैक्षिक स्तर
       </p>
     </div>
 
@@ -220,9 +215,7 @@ return (
         </h2>
 
         <p className="mt-4 leading-7 text-gray-600">
-          A supportive learning environment helps students build good
-          study habits, strengthen their understanding and prepare for
-          future opportunities.
+एक सहायक सीखने का माहौल छात्रों को अच्छे अध्ययन की आदतें बनाने, अपनी समझ को मजबूत करने और भविष्य के अवसरों के लिए तैयारी करने में मदद करता है।
         </p>
       </div>
 
@@ -266,9 +259,7 @@ return (
         </h2>
 
         <p className="mt-5 leading-8 text-gray-600">
-          Education is more than textbooks and examinations. It also
-          involves curiosity, responsible behaviour, problem-solving
-          and respect for others.
+         शिक्षा केवल किताबों और परीक्षा तक ही सीमित नहीं है। इसमें जिज्ञासा, जिम्मेदार व्यवहार, समस्या-समाधान और दूसरों के प्रति सम्मान भी शामिल है।
         </p>
 
         <div className="mt-7 space-y-4">
@@ -297,9 +288,7 @@ return (
         </h3>
 
         <p className="mt-5 leading-8 text-blue-100">
-          With regular practice, guidance and encouragement, students
-          can continue developing their skills and working towards
-          their academic goals.
+       नियमित अभ्यास, मार्गदर्शन और प्रोत्साहन के साथ, छात्र अपनी क्षमताओं को विकसित करते रह सकते हैं और अपने शैक्षणिक लक्ष्यों की ओर काम कर सकते हैं। 
         </p>
 
         <a
@@ -318,13 +307,11 @@ return (
     <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-center md:flex-row md:text-left">
       <div>
         <h2 className="text-2xl font-extrabold text-blue-950 md:text-3xl">
-          Looking for Admission Information?
+        प्रवेश की जानकारी ढूंढ रहे हैं?
         </h2>
 
         <p className="mt-3 text-blue-950/80">
-          Contact the school to confirm classes, subjects and admission
-          requirements.
-        </p>
+         क्लासेस, सब्जेक्ट्स और एडमिशन की जरूरतें कन्फ़र्म करने के लिए स्कूल से संपर्क करें।</p>
       </div>
 
       <a
