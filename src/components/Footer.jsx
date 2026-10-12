@@ -62,9 +62,9 @@ return (
         <h3 className="text-lg font-bold mb-5">Contact Us</h3>
 
         <ul className="space-y-4 text-gray-400 text-sm">
-          <li>📍 Maharajganj, Raebareli, Uttar Pradesh</li>
-          <li>📞 School phone number to be added</li>
-          <li>✉️ School email to be added</li>
+          <li>📍 Maharajganj, Raebareli, Uttar Pradesh 229306</li>
+          <li>📞 09415778951</li>
+          <li>✉️ ssvm.mrg.rbl@gmail.com</li>
         </ul>
 
         <a

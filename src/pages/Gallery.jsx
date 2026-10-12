@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import imge10 from "../assets/1.jpg"
+import imge2 from "../assets/2.jpg"
+import imge11 from "../assets/3.jpg"
+import imge13 from "../assets/5.jpg"
+import imge14 from "../assets/6.jpg"
+import image15 from "../assets/7.jpg"
+import image16 from "../assets/8.jpg"
+import image17 from "../assets/9.jpg"
 
 const galleryItems = [
 {
 id: 1,
 title: "School Campus",
 category: "Campus",
-image:
-"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+image:imge10,
 description: "A look at the school environment.",
 },
 {
@@ -16,15 +23,14 @@ description: "A look at the school environment.",
 title: "School Campus",
 category: "Campus",
 image:
-"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+imge11,
 description: "A look at the school environment.", 
 },
 {
  id: 20,
 title: "School Campus",
 category: "Campus",
-image:
-"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+image: imge13,
 description: "A look at the school environment.", 
 },
 {
@@ -89,15 +95,14 @@ id: 10,
 title: "School Campus",
 category: "Campus",
 image:
-"https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80",
+"../assets/1.jpg",
 description: "A look at the school environment.",
 },
 {
 id: 11,
 title: "Classroom Learning",
 category: "Classroom",
-image:
-"https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+image:imge2,
 description: "Students learning in a classroom environment.",
 },
 {
@@ -105,7 +110,7 @@ id: 12,
 title: "Library & Reading",
 category: "Activities",
 image:
-"https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1000&q=80",
+image16,
 description: "Reading and exploring new ideas.",
 },
 {
@@ -113,7 +118,7 @@ id: 13,
 title: "Sports Activities",
 category: "Sports",
 image:
-"https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1000&q=80",
+image17,
 description: "Sports, teamwork and participation.",
 },
 {
@@ -128,8 +133,7 @@ description: "Discovering science through learning.",
 id: 15,
 title: "School Celebration",
 category: "Events",
-image:
-"https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1000&q=80",
+image:imge14,
 description: "Memorable moments and celebrations.",
 },
 {
@@ -137,7 +141,7 @@ id: 16,
 title: "Creative Activities",
 category: "Activities",
 image:
-"https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=80",
+image15,
 description: "Creativity, imagination and expression.",
 },
 {
@@ -152,8 +156,7 @@ description: "Participation in outdoor activities.",
 id: 18,
 title: "Learning Together",
 category: "Classroom",
-image:
-"https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1000&q=80",
+image:imge2,
 description: "Sharing knowledge and learning together.",
 },
 ];
