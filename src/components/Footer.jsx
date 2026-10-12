@@ -9,7 +9,8 @@ return (
 
       <div>
         <h2 className="text-xl font-bold text-yellow-400">
-          🏫 Swadesh Saraswati
+          🏫
+           Swadesh Saraswati
         </h2>
 
         <h3 className="font-semibold mt-2">
@@ -22,8 +23,9 @@ return (
         </p>
 
         <div className="flex gap-3 mt-5">
+
           <a href="https://www.facebook.com/p/Swadesh-Saraswati-Vidya-Mandir-Inter-College-Maharajganj-Raebareli-100057372042424/?locale=hi_IN" className="text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 bg-white hover:text-black">
-            f
+                        <img src="https://www.bing.com/th/id/OIP.YBdpYxDSg6AtMUKXHme2MQHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2" className="h-10 w-10 rounded-2xl" alt=""/>
           </a>
 
           <a href="#" className="bg-slate-800 rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 hover:text-black">
