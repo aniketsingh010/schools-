@@ -12,6 +12,7 @@ return (
 
       <div className="bg-blue-900 text-white p-3 rounded-full">
         <span className="text-2xl">🏫</span>
+        {/* <img src={img1} */}
       </div>
 
       <div>
@@ -64,6 +65,11 @@ return (
           Gallery
         </Link>
       </li>
+       {/* <li>
+        <Link to="/contact" className="font-medium hover:text-orange-500">
+          fees
+        </Link>
+      </li> */}
 
       <li>
         <Link to="/contact" className="font-medium hover:text-orange-500">

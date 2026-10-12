@@ -3,7 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
+import img2 from "../assets/zxkfhd.jpg"
+import img3 from "../assets/img2.jpg"
 export default function Home() {
   const classes = [
     {
@@ -122,7 +123,7 @@ export default function Home() {
             <div className="absolute -inset-3 rotate-3 rounded-3xl bg-yellow-400/20" />
 
             <img
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85"
+              src={img2}
               alt="Students learning in a classroom"
               className="relative h-[350px] w-full rounded-3xl object-cover shadow-2xl md:h-[470px]"
             />
@@ -149,7 +150,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1000&q=85"
+              src={img3}
               alt="Students studying together"
               className="h-[320px] w-full rounded-3xl object-cover shadow-lg md:h-[430px]"
             />
