@@ -15,15 +15,15 @@ return (
 
       <div>
         <h1 className="text-lg md:text-xl font-bold text-blue-950">
-          Swadesh Saraswati
+        स्वदेश सरस्वती
         </h1>
 
         <h2 className="text-sm font-semibold text-orange-600">
-          Vidhya Mandir Inter College
+         विद्या मंदिर इंटर कॉलेज
         </h2>
 
         <p className="text-xs text-gray-500">
-          Maharajganj, Raebareli
+          महाराजगंज, रायबरेली
         </p>
       </div>
 

@@ -78,21 +78,20 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 md:px-10 md:py-24 lg:grid-cols-2">
           <div>
             <span className="inline-block rounded-full border border-white/20 bg-white/10 px-5 py-2 text-sm font-semibold text-yellow-300">
-              WELCOME TO OUR SCHOOL
+         हमारे विद्यालय में आपका स्वागत है।
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl">
-              Education Is The
+           शिक्षा ही है...
               <span className="block text-yellow-300">
-                Key To Success
+             सफलता की कुंजी।
               </span>
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-blue-100 md:text-lg">
-              Swadesh Saraswati Vidhya Mandir Inter College,
-              Maharajganj, Raebareli. Learning, knowledge aur
-              students ke overall development ko badhava dene
-              ke liye ek educational platform.
+            स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज, महाराजगंज, रायबरेली
+
+शिक्षा, ज्ञान और विद्यार्थियों के सर्वांगीण विकास को बढ़ावा देने वाला एक शैक्षणिक संस्थान।
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -134,11 +133,11 @@ export default function Home() {
               </p>
 
               <h3 className="mt-1 text-lg font-extrabold md:text-xl">
-                Learn Today, Lead Tomorrow
+                आज सीखें, कल नेतृत्व करें।
               </h3>
 
               <p className="mt-2 text-sm text-slate-500">
-                Knowledge • Discipline • Development
+              ज्ञान • अनुशासन • विकास
               </p>
             </div>
           </div>
@@ -173,16 +172,13 @@ export default function Home() {
             </h2>
 
             <p className="mt-5 leading-8 text-slate-600">
-              Swadesh Saraswati Vidhya Mandir Inter College ke
-              school website par aapka swagat hai. Hamara uddeshya
-              students ki academic learning, discipline aur
-              personal development ko support karna hai.
+             स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज की वेबसाइट पर आपका हार्दिक स्वागत है। हमारा उद्देश्य विद्यार्थियों की शैक्षणिक शिक्षा, अनुशासन और व्यक्तिगत विकास को प्रोत्साहित करना है।
+
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
-              Yahan aap school ke baare mein, classes, facilities,
-              admission process aur fees structure se judi
-              jaankari explore kar sakte hain.
+           यहाँ आप विद्यालय के बारे में, कक्षाओं, सुविधाओं, प्रवेश प्रक्रिया और शुल्क संरचना से संबंधित जानकारी प्राप्त कर सकते हैं।
+
             </p>
 
             <div className="mt-7 grid grid-cols-2 gap-4">
@@ -200,7 +196,8 @@ export default function Home() {
               to="/about"
               className="mt-8 inline-block rounded-lg bg-blue-700 px-6 py-3 font-bold text-white transition hover:bg-blue-800"
             >
-              Discover More →
+           **और अधिक जानें →**
+
             </Link>
           </div>
         </div>
@@ -211,16 +208,18 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <p className="font-bold uppercase tracking-widest text-blue-700">
-              Academic Programs
+         **शैक्षणिक कार्यक्रम**
+
             </p>
 
             <h2 className="mt-4 text-3xl font-extrabold md:text-4xl">
-              Explore Our Classes
+           **हमारी कक्षाओं के बारे में जानें।**
+
             </h2>
 
             <p className="mt-4 leading-7 text-slate-600">
-              Class 6 se 12 tak ki academic information aur
-              learning opportunities ke baare mein jaanein.
+         कक्षा 6 से 12 तक की शैक्षणिक जानकारी और सीखने के विभिन्न अवसरों के बारे में जानें।
+
             </p>
           </div>
 
@@ -253,7 +252,8 @@ export default function Home() {
                     to="/academics"
                     className="mt-6 inline-block font-bold text-blue-700 group-hover:text-blue-900"
                   >
-                    Explore Classes →
+                 **कक्षाओं के बारे में जानें →**
+
                   </Link>
                 </div>
               </div>
@@ -267,16 +267,18 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <p className="font-bold uppercase tracking-widest text-blue-700">
-              Why Choose Us
+           **हमें क्यों चुनें?**
+
             </p>
 
             <h2 className="mt-4 text-3xl font-extrabold md:text-4xl">
-              Learning Beyond The Classroom
+              **कक्षा से परे सीखने के अवसर**
+
             </h2>
 
             <p className="mt-4 leading-7 text-slate-600">
-              Education ka purpose sirf books tak limited nahi,
-              balki skills aur confidence develop karna bhi hai.
+          शिक्षा का उद्देश्य केवल पुस्तकों तक सीमित नहीं है, बल्कि विद्यार्थियों के कौशल और आत्मविश्वास का विकास करना भी है।
+
             </p>
           </div>
 
@@ -302,9 +304,8 @@ export default function Home() {
           </div>
 
           <p className="mt-6 text-center text-sm text-slate-500">
-            Note: Facilities ke baare mein di gayi details sample
-            content hain. Publish karne se pehle actual school
-            facilities verify karein.
+         **नोट:** विद्यालय की सुविधाओं के बारे में दी गई जानकारी केवल उदाहरण के लिए है। वेबसाइट प्रकाशित करने से पहले विद्यालय में उपलब्ध वास्तविक सुविधाओं की पुष्टि अवश्य करें।
+
           </p>
         </div>
       </section>
@@ -313,17 +314,18 @@ export default function Home() {
       <section className="px-5 py-16 md:px-10">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-r from-blue-950 to-indigo-800 px-7 py-12 text-center text-white md:px-16 md:py-16">
           <p className="font-bold uppercase tracking-widest text-yellow-300">
-            Admission Information
+         **प्रवेश संबंधी जानकारी**
+
           </p>
 
           <h2 className="mt-4 text-3xl font-extrabold md:text-5xl">
-            Start Your Educational Journey
+         **अपनी शैक्षिक यात्रा शुरू करें।**
+
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-blue-100">
-            Admission process, required documents aur available
-            classes ke baare mein jaankari ke liye admission page
-            par jaayein ya school office se sampark karein.
+           प्रवेश प्रक्रिया, आवश्यक दस्तावेज़ों और उपलब्ध कक्षाओं के बारे में जानकारी प्राप्त करने के लिए प्रवेश पृष्ठ पर जाएँ या विद्यालय के कार्यालय से संपर्क करें।
+
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -331,14 +333,16 @@ export default function Home() {
               to="/admission"
               className="rounded-xl bg-yellow-400 px-7 py-4 font-bold text-blue-950 transition hover:bg-yellow-300"
             >
-              Admission Enquiry →
+           **प्रवेश हेतु पूछताछ →**
+
             </Link>
 
             <Link
               to="/contact"
               className="rounded-xl border border-white/40 px-7 py-4 font-bold text-white transition hover:bg-white hover:text-blue-950"
             >
-              Contact School
+             **विद्यालय से संपर्क करें**
+
             </Link>
           </div>
         </div>
@@ -349,24 +353,27 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-7 rounded-2xl bg-white p-8 shadow-sm md:flex-row md:p-10">
           <div>
             <p className="font-bold uppercase tracking-widest text-blue-700">
-              Fee Information
+         **शुल्क संबंधी जानकारी**
+
             </p>
 
             <h2 className="mt-3 text-2xl font-extrabold md:text-3xl">
-              Looking For Fee Details?
+            **क्या आप शुल्क का विवरण जानना चाहते हैं?**
+
             </h2>
 
             <p className="mt-3 max-w-2xl leading-7 text-slate-600">
-              Class-wise fees aur fee structure ki jaankari ke
-              liye Fees Structure page visit karein.
+         
             </p>
           </div>
+कक्षावार शुल्क और शुल्क संरचना की जानकारी प्राप्त करने के लिए शुल्क विवरण पृष्ठ पर जाएँ।
 
           <Link
             to="/fees"
             className="shrink-0 rounded-xl bg-blue-700 px-7 py-4 font-bold text-white transition hover:bg-blue-800"
           >
-            View Fees →
+           **शुल्क विवरण देखें →**
+
           </Link>
         </div>
       </section>
@@ -374,15 +381,18 @@ export default function Home() {
       {/* BOTTOM MESSAGE */}
       <section className="bg-blue-950 px-5 py-10 text-center text-white">
         <h2 className="text-2xl font-extrabold">
-          Knowledge Is The Foundation Of Success
+       **ज्ञान ही सफलता की नींव है।**
+
         </h2>
 
         <p className="mt-3 text-blue-200">
-          Swadesh Saraswati Vidhya Mandir Inter College
+      **स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज**
+
         </p>
 
         <p className="mt-2 text-sm text-blue-300">
-          Maharajganj, Raebareli, Uttar Pradesh
+        **महाराजगंज, रायबरेली, उत्तर प्रदेश**
+
         </p>
       </section>
     </main>
