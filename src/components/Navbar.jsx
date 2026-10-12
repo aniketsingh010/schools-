@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import img5 from "../assets/zxkfhd.jpg"
 
 const Navbar = () => {
 return ( 
@@ -10,8 +11,10 @@ return (
   <div className="flex-1">
     <a href="/" className="flex items-center gap-3 no-underline">
 
-      <div className="bg-blue-900 text-white p-3 rounded-full">
-        <span className="text-2xl">🏫</span>
+      <div className=" p-4  hover:bg-white">
+        {/* <span className="text-2xl">🏫</span> */}
+        <img src={img5} alt='' className=' h-15 w-30 rounded-2xl'/>
+
         {/* <img src={img1} */}
       </div>
 

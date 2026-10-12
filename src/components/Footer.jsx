@@ -22,12 +22,12 @@ return (
         </p>
 
         <div className="flex gap-3 mt-5">
-          <a href="#" className="bg-slate-800 rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 hover:text-black">
+          <a href="https://www.facebook.com/p/Swadesh-Saraswati-Vidya-Mandir-Inter-College-Maharajganj-Raebareli-100057372042424/?locale=hi_IN" className="text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 bg-white hover:text-black">
             f
           </a>
 
           <a href="#" className="bg-slate-800 rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 hover:text-black">
-            ◎
+            int
           </a>
         </div>
       </div>
