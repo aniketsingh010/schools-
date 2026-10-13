@@ -14,6 +14,7 @@ import {
   FaGraduationCap,
   FaSchool,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -120,27 +121,27 @@ const Footer = () => {
 
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>
-                <a href="/academics" className="hover:text-yellow-400">
+                <Link to="/academics" className="hover:text-yellow-400">
                   Classes 6–8
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/academics" className="hover:text-yellow-400">
+                <Link to="/academics" className="hover:text-yellow-400">
                   Classes 9–10
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/academics" className="hover:text-yellow-400">
+                <Link to="/academics" className="hover:text-yellow-400">
                   Classes 11–12
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/admission" className="hover:text-yellow-400">
+                <Link to="/admission" className="hover:text-yellow-400">
                   Admission Information
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
