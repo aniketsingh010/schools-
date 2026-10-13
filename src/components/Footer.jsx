@@ -1,98 +1,213 @@
+
 import React from "react";
+import img111 from "../assets/zxkfhd.jpg";
+
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLocationDot,
+  FaPhone,
+  FaEnvelope,
+  FaArrowRight,
+  FaHouse,
+  FaBookOpen,
+  FaGraduationCap,
+  FaSchool,
+} from "react-icons/fa6";
 
 const Footer = () => {
-return (
-    <>
-      <footer className="bg-slate-950 text-white pt-12 pb-6"> <div className="max-w-7xl mx-auto px-6">
+  return (
+    <footer className="bg-slate-950 text-white pt-12 pb-6">
+      <div className="max-w-7xl mx-auto px-6">
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-      <div>
-        <h2 className="text-xl font-bold text-yellow-400">
-          🏫
-           Swadesh Saraswati
-        </h2>
+          {/* School Information */}
+          <div>
+            <img
+              src={img111}
+              className="h-14 w-20 object-contain"
+              alt="School Logo"
+            />
 
-        <h3 className="font-semibold mt-2">
-          Vidhya Mandir Inter College
-        </h3>
+            <h2 className="text-xl font-bold text-yellow-400 mt-3">
+              Swadesh Saraswati
+            </h2>
 
-        <p className="text-gray-400 text-sm leading-7 mt-4">
-          Maharajganj, Raebareli, Uttar Pradesh, India.
-          Learn, grow and build a brighter future with us.
-        </p>
+            <h3 className="font-semibold mt-2">
+              Vidhya Mandir Inter College
+            </h3>
 
-        <div className="flex gap-3 mt-5">
+            <p className="text-gray-400 text-sm leading-7 mt-4">
+              Maharajganj, Raebareli, Uttar Pradesh, India.
+              Learn, grow and build a brighter future with us.
+            </p>
 
-          <a href="https://www.facebook.com/p/Swadesh-Saraswati-Vidya-Mandir-Inter-College-Maharajganj-Raebareli-100057372042424/?locale=hi_IN" className="text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 bg-white hover:text-black">
-                        <img src="https://www.bing.com/th/id/OIP.YBdpYxDSg6AtMUKXHme2MQHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2" className="h-10 w-10 rounded-2xl" alt=""/>
-          </a>
+            {/* Social Media Icons */}
+            <div className="flex gap-3 mt-5">
 
-          <a href="#" className="bg-slate-800 rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 hover:text-black">
-            int
-          </a>
+              <a
+                href="https://www.facebook.com/p/Swadesh-Saraswati-Vidya-Mandir-Inter-College-Maharajganj-Raebareli-100057372042424/?locale=hi_IN"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 transition"
+              >
+                <FaFacebook className="text-2xl text-blue-600" />
+              </a>
+
+              <a
+                href="#"
+                aria-label="Instagram"
+                className="bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-yellow-400 transition"
+              >
+                <FaInstagram className="text-2xl text-pink-500" />
+              </a>
+
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-bold mb-5">
+              Quick Links
+            </h3>
+
+            <ul className="space-y-3 text-gray-400 text-sm">
+              <li>
+                <a href="/" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaHouse /> Home
+                </a>
+              </li>
+
+              <li>
+                <a href="/about" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaSchool /> About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="/academics" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaBookOpen /> Academics
+                </a>
+              </li>
+
+              <li>
+                <a href="/facilities" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaGraduationCap /> Facilities
+                </a>
+              </li>
+
+              <li>
+                <a href="/gallery" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaInstagram /> Gallery
+                </a>
+              </li>
+
+              <li>
+                <a href="/contact" className="flex items-center gap-2 hover:text-yellow-400">
+                  <FaEnvelope /> Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Academics */}
+          <div>
+            <h3 className="text-lg font-bold mb-5">
+              Academics
+            </h3>
+
+            <ul className="space-y-3 text-gray-400 text-sm">
+              <li>
+                <a href="/academics" className="hover:text-yellow-400">
+                  Classes 6–8
+                </a>
+              </li>
+
+              <li>
+                <a href="/academics" className="hover:text-yellow-400">
+                  Classes 9–10
+                </a>
+              </li>
+
+              <li>
+                <a href="/academics" className="hover:text-yellow-400">
+                  Classes 11–12
+                </a>
+              </li>
+
+              <li>
+                <a href="/admission" className="hover:text-yellow-400">
+                  Admission Information
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Information */}
+          <div>
+            <h3 className="text-lg font-bold mb-5">
+              Contact Us
+            </h3>
+
+            <ul className="space-y-4 text-gray-400 text-sm">
+
+              <li className="flex items-start gap-3">
+                <FaLocationDot className="text-yellow-400 text-lg mt-1 shrink-0" />
+                <span>
+                  Maharajganj, Raebareli, Uttar Pradesh 229306
+                </span>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <FaPhone className="text-yellow-400 text-lg shrink-0" />
+                <a href="tel:09415778951" className="hover:text-yellow-400">
+                  09415778951
+                </a>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <FaEnvelope className="text-yellow-400 text-lg mt-1 shrink-0" />
+                <a
+                  href="mailto:ssvm.mrg.rbl@gmail.com"
+                  className="hover:text-yellow-400 break-all"
+                >
+                  ssvm.mrg.rbl@gmail.com
+                </a>
+              </li>
+
+            </ul>
+
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-2 mt-6 bg-yellow-400 text-slate-950 px-5 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
+            >
+              Contact Us
+              <FaArrowRight />
+            </a>
+          </div>
+
         </div>
+
+        {/* Copyright */}
+        <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+
+          <p className="text-gray-500 text-sm text-center">
+            © {new Date().getFullYear()} Swadesh Saraswati Vidhya Mandir
+            Inter College. All rights reserved.
+          </p>
+
+          <p className="text-gray-500 text-sm flex items-center gap-2">
+            <FaLocationDot className="text-yellow-400" />
+            Maharajganj, Raebareli
+          </p>
+
+        </div>
+
       </div>
-
-      <div>
-        <h3 className="text-lg font-bold mb-5">Quick Links</h3>
-
-        <ul className="space-y-3 text-gray-400 text-sm">
-          <li><a href="/" className="hover:text-yellow-400">Home</a></li>
-          <li><a href="/about" className="hover:text-yellow-400">About Us</a></li>
-          <li><a href="/academics" className="hover:text-yellow-400">Academics</a></li>
-          <li><a href="/facilities" className="hover:text-yellow-400">Facilities</a></li>
-          <li><a href="/gallery" className="hover:text-yellow-400">Gallery</a></li>
-          <li><a href="/contact" className="hover:text-yellow-400">Contact Us</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 className="text-lg font-bold mb-5">Academics</h3>
-
-        <ul className="space-y-3 text-gray-400 text-sm">
-          <li><a href="/academics" className="hover:text-yellow-400">Classes 6–8</a></li>
-          <li><a href="/academics" className="hover:text-yellow-400">Classes 9–10</a></li>
-          <li><a href="/academics" className="hover:text-yellow-400">Classes 11–12</a></li>
-          <li><a href="/admission" className="hover:text-yellow-400">Admission Information</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 className="text-lg font-bold mb-5">Contact Us</h3>
-
-        <ul className="space-y-4 text-gray-400 text-sm">
-          <li>📍 Maharajganj, Raebareli, Uttar Pradesh 229306</li>
-          <li>📞 09415778951</li>
-          <li>✉️ ssvm.mrg.rbl@gmail.com</li>
-        </ul>
-
-        <a
-          href="/contact"
-          className="inline-block mt-6 bg-yellow-400 text-slate-950 px-5 py-3 rounded-lg font-semibold hover:bg-yellow-300"
-        >
-          Contact Us →
-        </a>
-      </div>
-
-    </div>
-
-    <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-      <p className="text-gray-500 text-sm text-center">
-        © {new Date().getFullYear()} Swadesh Saraswati Vidhya Mandir Inter College.
-        All rights reserved.
-      </p>
-
-      <p className="text-gray-500 text-sm">
-        Maharajganj, Raebareli
-      </p>
-    </div>
-
-  </div>
-</footer>
-    </>
-   
-);
+    </footer>
+  );
 };
 
 export default Footer;

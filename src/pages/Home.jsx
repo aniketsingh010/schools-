@@ -4,13 +4,18 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import img2 from "../assets/zxkfhd.jpg"
-import img3 from "../assets/img2.jpg"
+import img3 from "../assets/img2.jpg";
+import { FaBook } from "react-icons/fa";
+import { RiSeedlingLine } from "react-icons/ri";
+import { FaFutbol } from "react-icons/fa";
+import { FaLaptop } from "react-icons/fa";
+import { FaHouse } from "react-icons/fa6";
 export default function Home() {
   const classes = [
     {
       name: "Middle School",
       range: "Classes 6–8",
-      icon: "📚",
+      icon: <FaBook className="text-black"/>,
       description:
         "Strong foundation, basic concepts aur learning skills par focus.",
       color: "from-blue-500 to-blue-700",
@@ -18,7 +23,7 @@ export default function Home() {
     {
       name: "Secondary School",
       range: "Classes 9–10",
-      icon: "🎓",
+      icon:<RiSeedlingLine />,
       description:
         "Subject knowledge, regular practice aur examination preparation.",
       color: "from-green-500 to-green-700",
@@ -41,13 +46,13 @@ export default function Home() {
         "Students ko concepts samajhne aur knowledge badhane mein madad.",
     },
     {
-      icon: "💻",
+      icon:   <FaLaptop className="text-4xl text-blue-500" />,
       title: "Computer Education",
       description:
         "Digital learning aur technology ki basic understanding.",
     },
     {
-      icon: "⚽",
+      icon:<FaFutbol className="text-3xl text-green-400" />,
       title: "Sports & Activities",
       description:
         "Physical activity, teamwork aur discipline ko badhava.",
