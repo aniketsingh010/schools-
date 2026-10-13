@@ -76,39 +76,39 @@ const Footer = () => {
 
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>
-                <a href="/" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaHouse /> Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/about" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/about" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaSchool /> About Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/academics" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/academics" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaBookOpen /> Academics
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/facilities" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/facilities" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaGraduationCap /> Facilities
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/gallery" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/gallery" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaInstagram /> Gallery
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/contact" className="flex items-center gap-2 hover:text-yellow-400">
+                <Link to="/contact" className="flex items-center gap-2 hover:text-yellow-400">
                   <FaEnvelope /> Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -121,27 +121,27 @@ const Footer = () => {
 
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>
-                <Link to="/academics" className="hover:text-yellow-400">
+                <a href="/academics" className="hover:text-yellow-400">
                   Classes 6–8
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to="/academics" className="hover:text-yellow-400">
+                <a href="/academics" className="hover:text-yellow-400">
                   Classes 9–10
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to="/academics" className="hover:text-yellow-400">
+                <a href="/academics" className="hover:text-yellow-400">
                   Classes 11–12
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to="/admission" className="hover:text-yellow-400">
+                <a href="/admission" className="hover:text-yellow-400">
                   Admission Information
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
