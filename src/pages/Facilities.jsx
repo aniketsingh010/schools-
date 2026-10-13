@@ -1,88 +1,110 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import {
+  FaBookOpen,
+  FaLaptop,
+  FaFlask,
+  FaFutbol,
+  FaSchool,
+  FaPalette,
+  FaBroom,
+  FaChair,
+  FaBullseye,
+  FaStar,
+  FaHandshake,
+  FaSeedling,
+  FaGraduationCap,
+  FaArrowRight,
+  FaCheckCircle,
+} from "react-icons/fa";
+
 const Facilities = () => {
+  // School Facilities
   const facilities = [
     {
-      icon: "📚",
+      icon: <FaBookOpen />,
       title: "Library",
       description:
-        "A library can help students develop reading habits, improve vocabulary and explore knowledge beyond their textbooks.",
-      color: "bg-blue-100",
+        "A library helps students develop reading habits, improve vocabulary, and explore knowledge beyond their textbooks.",
+      color: "bg-blue-100 text-blue-700",
     },
     {
-      icon: "💻",
+      icon: <FaLaptop />,
       title: "Computer Education",
       description:
-        "Computer education helps students understand digital tools and develop basic technology skills.",
-      color: "bg-purple-100",
+        "Computer education introduces students to digital tools and helps them develop essential technology skills.",
+      color: "bg-purple-100 text-purple-700",
     },
     {
-      icon: "🔬",
+      icon: <FaFlask />,
       title: "Science Laboratory",
       description:
         "Practical activities help students connect scientific concepts with real-world observations.",
-      color: "bg-green-100",
+      color: "bg-green-100 text-green-700",
     },
     {
-      icon: "⚽",
+      icon: <FaFutbol />,
       title: "Sports & Games",
       description:
-        "Sports and games encourage teamwork, discipline, confidence and an active lifestyle.",
-      color: "bg-orange-100",
+        "Sports and games encourage teamwork, discipline, confidence, and an active lifestyle.",
+      color: "bg-orange-100 text-orange-700",
     },
     {
-      icon: "🏫",
+      icon: <FaSchool />,
       title: "Classrooms",
       description:
-        "A positive classroom environment supports learning, participation and interaction between teachers and students.",
-      color: "bg-pink-100",
+        "A positive classroom environment supports learning, participation, and interaction between teachers and students.",
+      color: "bg-pink-100 text-pink-700",
     },
     {
-      icon: "🎨",
+      icon: <FaPalette />,
       title: "Cultural Activities",
       description:
-        "Cultural activities can encourage creativity, communication skills and appreciation of traditions.",
-      color: "bg-yellow-100",
+        "Cultural activities encourage creativity, communication skills, and appreciation of traditions.",
+      color: "bg-yellow-100 text-yellow-700",
     },
     {
-      icon: "🧹",
+      icon: <FaBroom />,
       title: "Clean Environment",
       description:
         "Clean and well-maintained surroundings support a comfortable and welcoming learning environment.",
-      color: "bg-teal-100",
+      color: "bg-teal-100 text-teal-700",
     },
     {
-      icon: "🪑",
+      icon: <FaChair />,
       title: "Student-Friendly Spaces",
       description:
         "Suitable seating and organized learning spaces can help students concentrate during lessons.",
-      color: "bg-indigo-100",
+      color: "bg-indigo-100 text-indigo-700",
     },
   ];
 
+  // Benefits of School Facilities
   const benefits = [
     {
-      icon: "🎯",
+      icon: <FaBullseye />,
       title: "Better Learning",
       description:
-        "Learning resources can help students understand concepts and practise new skills.",
+        "Learning resources help students understand concepts and practise new skills.",
     },
     {
-      icon: "🌟",
+      icon: <FaStar />,
       title: "Skill Development",
       description:
-        "Academic and extracurricular activities help students explore their interests.",
+        "Academic and extracurricular activities help students discover and develop their interests.",
     },
     {
-      icon: "🤝",
+      icon: <FaHandshake />,
       title: "Teamwork",
       description:
-        "Group activities encourage cooperation, communication and mutual respect.",
+        "Group activities encourage cooperation, communication, and mutual respect.",
     },
     {
-      icon: "🌱",
+      icon: <FaSeedling />,
       title: "Overall Growth",
       description:
         "A supportive school environment contributes to students' academic and personal development.",
@@ -92,66 +114,78 @@ const Facilities = () => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gray-50">
 
+      <main className="min-h-screen bg-gray-50">
+        {/* HERO SECTION */}
 
-        {/* Hero Section */}
         <section className="relative overflow-hidden bg-gradient-to-r from-blue-950 via-blue-800 to-indigo-700 text-white">
-          <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl"></div>
-          <div className="absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl"></div>
+          <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
+
+          <div className="absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 md:py-28">
-            <span className="inline-block rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold">
-              🏫 School Facilities
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold">
+              <FaSchool />
+              School Facilities
             </span>
 
             <h1 className="mt-6 max-w-3xl text-4xl font-extrabold leading-tight md:text-6xl">
-        एक बेहतर पर्यावरण
+              A Better Environment
               <span className="block text-yellow-400">
-           बेहतर सीखने के लिए
+                for Better Learning
               </span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-blue-100 md:text-lg">
-स्वदेश सरस्वती विद्या मंदिर इण्टर कॉलेज, महाराजगंज, रायबरेली में कक्षा 6 से 12 तक के छात्रों के लिए उपलब्ध लर्निंग संसाधनों और सुविधाओं का अन्वेषण करें।
+              Explore the learning resources and facilities intended for
+              students from Classes 6 to 12 at Swadesh Saraswati Vidya Mandir
+              Inter College, Maharajganj, Raebareli.
             </p>
 
             <a
               href="#facilities-list"
-              className="mt-8 inline-block rounded-lg bg-yellow-400 px-7 py-3.5 font-bold text-blue-950 shadow-lg transition hover:-translate-y-1 hover:bg-yellow-300"
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-7 py-3.5 font-bold text-blue-950 shadow-lg transition hover:-translate-y-1 hover:bg-yellow-300"
             >
-              Explore Facilities ↓
+              Explore Facilities
+              <FaArrowRight />
             </a>
           </div>
         </section>
 
-        {/* Introduction */}
+        {/* INTRODUCTION SECTION */}
+
         <section className="mx-auto max-w-7xl px-6 py-16">
           <div className="mx-auto max-w-3xl text-center">
             <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
-            सीखने का माहौल
+              Learning Environment
             </span>
 
             <h2 className="mt-3 text-3xl font-extrabold text-gray-900 md:text-4xl">
-छात्र विकास के लिए सुविधाएँ
+              Facilities for Student Development
             </h2>
 
             <p className="mt-5 leading-8 text-gray-600">
-एक सहायक स्कूल का वातावरण छात्रों को सीखने, सवाल पूछने, कौशल विकसित करने और गतिविधियों में भाग लेने के अवसर देता है। नीचे सूचीबद्ध सुविधाओं का पता लगाएँ।
+              A supportive school environment gives students opportunities to
+              learn, ask questions, develop skills, and participate in
+              activities. Explore the facilities listed below.
             </p>
           </div>
         </section>
 
-        {/* Facilities Cards */}
-        <section id="facilities-list" className="mx-auto max-w-7xl px-6 pb-20">
+        {/* FACILITIES CARDS */}
+
+        <section
+          id="facilities-list"
+          className="mx-auto max-w-7xl scroll-mt-20 px-6 pb-20"
+        >
           <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4">
-            {facilities.map((facility, index) => (
+            {facilities.map((facility) => (
               <div
-                key={index}
+                key={facility.title}
                 className="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
                 <div
-                  className={`flex h-16 w-16 items-center justify-center rounded-2xl ${facility.color} text-4xl transition duration-300 group-hover:scale-110`}
+                  className={`flex h-16 w-16 items-center justify-center rounded-2xl text-3xl transition duration-300 group-hover:scale-110 ${facility.color}`}
                 >
                   {facility.icon}
                 </div>
@@ -164,18 +198,18 @@ const Facilities = () => {
                   {facility.description}
                 </p>
 
-                <div className="mt-5 h-1 w-12 rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-20"></div>
+                <div className="mt-5 h-1 w-12 rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-20" />
               </div>
             ))}
           </div>
         </section>
 
-        {/* Highlight Section */}
+        {/* HIGHLIGHT SECTION */}
+
         <section className="bg-white py-20">
           <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
-
             <div className="rounded-3xl bg-gradient-to-br from-blue-950 to-indigo-700 p-8 text-white shadow-xl md:p-12">
-              <div className="text-6xl">🎓</div>
+              <FaGraduationCap className="text-6xl text-yellow-400" />
 
               <h2 className="mt-6 text-3xl font-extrabold leading-tight">
                 Learning Beyond
@@ -185,34 +219,41 @@ const Facilities = () => {
               </h2>
 
               <p className="mt-5 leading-8 text-blue-100">
-शिक्षा में व्यावहारिक गतिविधियाँ, टीमवर्क, रचनात्मकता और नई क्षमताएँ सीखना भी शामिल है। ये अनुभव छात्रों को अधिक आत्मविश्वासी और स्वतंत्र बनने में मदद कर सकते हैं।
+                Education includes practical activities, teamwork, creativity,
+                and opportunities to learn new skills. These experiences can
+                help students become more confident and independent.
               </p>
 
-              <a
-                href="/academics"
-                className="mt-7 inline-block rounded-lg bg-yellow-400 px-6 py-3 font-bold text-blue-950 transition hover:bg-yellow-300"
+              <Link
+                to="/academics"
+                className="mt-7 inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-6 py-3 font-bold text-blue-950 transition hover:bg-yellow-300"
               >
-                Explore Academics →
-              </a>
+                Explore Academics
+                <FaArrowRight />
+              </Link>
             </div>
 
             <div>
               <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
-           सुविधाएँ क्यों मायने रखती हैं
+                Why Facilities Matter
               </span>
 
               <h2 className="mt-3 text-3xl font-extrabold text-gray-900 md:text-4xl">
-              हर छात्र का समर्थन करना
-             </h2>
+                Supporting Every Student
+              </h2>
 
               <p className="mt-5 leading-8 text-gray-600">
-लर्निंग रिसोर्सेज और स्कूल की गतिविधियाँ छात्रों को महत्वपूर्ण अकादमिक, सामाजिक और व्यक्तिगत कौशल विकसित करने में मदद कर सकती हैं।
+                Learning resources and school activities can help students
+                develop important academic, social, and personal skills.
               </p>
 
               <div className="mt-8 space-y-6">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-4">
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-3xl">
+                {benefits.map((benefit) => (
+                  <div
+                    key={benefit.title}
+                    className="flex items-start gap-4"
+                  >
+                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-2xl text-blue-700">
                       {benefit.icon}
                     </div>
 
@@ -229,84 +270,112 @@ const Facilities = () => {
                 ))}
               </div>
             </div>
-
           </div>
         </section>
 
-        {/* Classes Section */}
+        {/* CLASSES SECTION */}
+
         <section className="bg-gray-100 py-20">
           <div className="mx-auto max-w-7xl px-6">
             <div className="mx-auto mb-12 max-w-3xl text-center">
               <h2 className="text-3xl font-extrabold text-gray-900 md:text-4xl">
-           कक्षा 6–12 के लिए सुविधाएँ
+                Facilities for Classes 6–12
               </h2>
 
               <p className="mt-4 leading-7 text-gray-600">
-            जैसे-जैसे छात्र शिक्षा के अलग-अलग चरणों से गुजरते हैं, उनकी सीखने की जरूरतें बदलती रहती हैं। 
+                Students' learning needs change as they progress through
+                different academic levels. Learning resources can support
+                them at every stage.
               </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-lg">
-                <div className="text-4xl">📘</div>
+              {/* MIDDLE SCHOOL */}
+
+              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <FaBookOpen className="text-4xl text-blue-700" />
+
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
                   Classes 6–8
                 </h3>
+
                 <p className="mt-3 leading-7 text-gray-600">
-जिज्ञासा, पढ़ाई की आदतें, बेसिक कंप्यूटर ज्ञान और मुख्य विषयों की मजबूत नींव को बढ़ावा दें।
+                  Encourage curiosity, reading habits, basic computer knowledge,
+                  and a strong foundation in core subjects.
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-lg">
-                <div className="text-4xl">📚</div>
+              {/* SECONDARY SCHOOL */}
+
+              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <FaBookOpen className="text-4xl text-orange-500" />
+
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
-               कक्षाएँ 9–10
+                  Classes 9–10
                 </h3>
+
                 <p className="mt-3 leading-7 text-gray-600">
-विषय की समझ, व्यावहारिक सीख, दोहराई और परीक्षा की तैयारी में मदद करें।
+                  Support subject understanding, practical learning, revision,
+                  and examination preparation.
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-lg">
-                <div className="text-4xl">🎓</div>
+              {/* SENIOR SECONDARY */}
+
+              <div className="rounded-2xl bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <FaGraduationCap className="text-4xl text-green-600" />
+
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
                   Classes 11–12
                 </h3>
+
                 <p className="mt-3 leading-7 text-gray-600">
-                उपलब्ध पाठ्यक्रमों के अनुसार उन्नत विषय सीखने और भविष्य की शैक्षिक योजना का समर्थन करें।
+                  Support advanced subject learning and future educational
+                  planning according to the courses offered by the school.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Contact CTA */}
+        {/* CONTACT CTA */}
+
         <section className="bg-gradient-to-r from-yellow-400 to-amber-300 py-14">
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-center md:flex-row md:text-left">
             <div>
               <h2 className="text-2xl font-extrabold text-blue-950 md:text-3xl">
-             हमारी सुविधाओं के बारे में और जानना चाहते हैं?
+                Want to Know More About Our Facilities?
               </h2>
 
               <p className="mt-3 text-blue-950/80">
-वर्तमान में उपलब्ध सुविधाओं की पुष्टि के लिए स्कूल से संपर्क करें।
+                Contact the school to confirm which facilities are currently
+                available.
               </p>
             </div>
 
-            <a
-              href="/contact"
-              className="shrink-0 rounded-lg bg-blue-950 px-7 py-4 font-bold text-white transition hover:bg-blue-900"
+            <Link
+              to="/contact"
+              className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-blue-950 px-7 py-4 font-bold text-white transition hover:bg-blue-900"
             >
-              Contact Us →
-            </a>
+              Contact Us
+              <FaArrowRight />
+            </Link>
           </div>
         </section>
 
-      </div>
+        {/* NOTE */}
+
+        <section className="bg-white px-6 py-6">
+          <p className="mx-auto max-w-5xl text-center text-sm leading-6 text-gray-500">
+            Note: The facilities described on this page are examples of
+            educational resources. Please confirm their actual availability
+            with the school before publishing this website.
+          </p>
+        </section>
+      </main>
+
       <Footer />
     </>
-
-
   );
 };
 

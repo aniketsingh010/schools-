@@ -1,254 +1,310 @@
+import React from "react";
+import { Link } from "react-router-dom";
 
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+import {
+  FaBullseye,
+  FaRocket,
+  FaBookOpen,
+  FaHandshake,
+  FaTrophy,
+  FaStar,
+  FaGraduationCap,
+  FaArrowRight,
+  FaSchool,
+} from "react-icons/fa6";
 
 const About = () => {
   return (
     <>
-    <Navbar/>
-      {/* About Hero Section */}
-      <section className="bg-blue-950 text-white py-16 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-orange-400 font-semibold uppercase tracking-widest">
+      <Navbar />
+
+      {/* ABOUT HERO SECTION */}
+      <section className="bg-blue-950 px-6 py-16 text-white">
+        <div className="mx-auto max-w-7xl text-center">
+          <p className="font-semibold uppercase tracking-widest text-orange-400">
             About Our School
           </p>
 
-          <h1 className="text-3xl md:text-5xl font-bold mt-4">
-           स्वदेश सरस्वती विद्यालय मंदिर
+          <h1 className="mt-4 text-3xl font-bold md:text-5xl">
+            Swadesh Saraswati Vidya Mandir
           </h1>
 
-          <h2 className="text-xl md:text-2xl font-semibold mt-3">
-            इंटर कॉलेज, महाराजगंज, रायबरेली
+          <h2 className="mt-3 text-xl font-semibold md:text-2xl">
+            Inter College, Maharajganj, Raebareli
           </h2>
 
-          <p className="max-w-3xl mx-auto mt-6 text-gray-200 leading-8">
-           स्वदेश सरस्वती विद्या मंदिर इण्टर कालेज में आपका स्वागत है। हमारी वेबसाइट हमारे स्कूल, शैक्षिक कार्यक्रमों, सुविधाओं और कक्षा 6 से कक्षा 12 तक के छात्रों के लिए शैक्षिक गतिविधियों की जानकारी प्रदान करती है।
+          <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-200">
+            Welcome to Swadesh Saraswati Vidya Mandir Inter College. Our
+            website provides information about our school, academic programs,
+            facilities, and educational activities for students from Classes
+            6 to 12.
           </p>
         </div>
       </section>
 
-      {/* School Introduction */}
-      <section className="py-16 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
-          {/* Image Section */}
-          <div className="rounded-2xl overflow-hidden shadow-xl">
+      {/* SCHOOL INTRODUCTION */}
+      <section className="bg-gray-50 px-6 py-16">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
+          {/* IMAGE SECTION */}
+          <div className="overflow-hidden rounded-2xl shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=80"
               alt="School building"
-              className="w-full h-80 object-cover"
+              className="h-80 w-full object-cover"
             />
           </div>
 
-          {/* Text Section */}
+          {/* TEXT SECTION */}
           <div>
-            <p className="text-orange-500 font-bold uppercase tracking-widest">
-             हमारे स्कूल में आपका स्वागत है
+            <p className="font-bold uppercase tracking-widest text-orange-500">
+              Welcome to Our School
             </p>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
-            ज्ञान, मूल्य और आत्मविश्वास बनाना
+            <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
+              Building Knowledge, Values, and Confidence
             </h2>
 
-            <p className="text-gray-600 mt-5 leading-8">
- स्वदेश सरस्वती विद्या मंदिर इंटर कॉलेज, महाराजगंज, रायबरेली, इस वेबसाइट पर दिखाया गया स्कूल है। कक्षा 6 से 12 तक के इसके शैक्षणिक कार्यक्रमों के बारे में जानकारी लें और स्कूल जीवन के अलग-अलग पहलुओं को जानें।
+            <p className="mt-5 leading-8 text-gray-600">
+              Swadesh Saraswati Vidya Mandir Inter College, Maharajganj,
+              Raebareli, is the school featured on this website. Explore
+              information about its academic programs for Classes 6 to 12 and
+              learn about different aspects of school life.
             </p>
 
-            <p className="text-gray-600 mt-4 leading-8">
-           शिक्षा छात्रों को ज्ञान, अनुशासन, आत्मविश्वास और जिम्मेदारी की भावना विकसित करने में मदद करती है। हमारी वेबसाइट का मकसद स्कूल की जानकारी को माता-पिता, छात्रों और विज़िटर्स के लिए आसान बनाना है ताकि वे इसे आसानी से एक्सप्लोर कर सकें।
+            <p className="mt-4 leading-8 text-gray-600">
+              Education helps students develop knowledge, discipline,
+              confidence, and a sense of responsibility. Our website aims to
+              make school information easily accessible to parents, students,
+              and visitors.
             </p>
 
-            <a
-              href="/academics"
-              className="inline-block mt-6 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition"
+            <Link
+              to="/academics"
+              className="mt-6 inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600"
             >
               Explore Academics
-            </a>
+              <FaArrowRight />
+            </Link>
           </div>
-
         </div>
       </section>
 
-      {/* Vision and Mission */}
-      <section className="py-16 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-12">
-            <p className="text-orange-500 font-bold uppercase tracking-widest">
+      {/* VISION AND MISSION */}
+      <section className="bg-white px-6 py-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-12 text-center">
+            <p className="font-bold uppercase tracking-widest text-orange-500">
               Our Purpose
             </p>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
+            <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
               Our Vision & Mission
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-
-            {/* Vision Card */}
-            <div className="bg-blue-50 p-8 rounded-2xl border-l-4 border-blue-900 shadow-md">
-              <div className="text-4xl mb-4">🎯</div>
+          <div className="grid gap-8 md:grid-cols-2">
+            {/* VISION CARD */}
+            <div className="rounded-2xl border-l-4 border-blue-900 bg-blue-50 p-8 shadow-md">
+              <div className="mb-4">
+                <FaBullseye className="text-4xl text-blue-900" />
+              </div>
 
               <h3 className="text-2xl font-bold text-blue-950">
                 Our Vision
               </h3>
 
-              <p className="text-gray-600 mt-4 leading-8">
-               छात्रों को ज्ञान हासिल करने, सकारात्मक मूल्य विकसित करने और उज्जवल भविष्य की दिशा में काम करने के लिए प्रोत्साहित करना।
+              <p className="mt-4 leading-8 text-gray-600">
+                To encourage students to gain knowledge, develop positive
+                values, build confidence, and work towards a bright and
+                successful future.
               </p>
             </div>
 
-            {/* Mission Card */}
-            <div className="bg-orange-50 p-8 rounded-2xl border-l-4 border-orange-500 shadow-md">
-              <div className="text-4xl mb-4">🚀</div>
+            {/* MISSION CARD */}
+            <div className="rounded-2xl border-l-4 border-orange-500 bg-orange-50 p-8 shadow-md">
+              <div className="mb-4">
+                <FaRocket className="text-4xl text-orange-500" />
+              </div>
 
               <h3 className="text-2xl font-bold text-blue-950">
                 Our Mission
               </h3>
 
-              <p className="text-gray-600 mt-4 leading-8">
-               सीखने, अनुशासन, जिम्मेदारी और छात्रों के समग्र विकास के महत्व को उजागर करने के लिए।
+              <p className="mt-4 leading-8 text-gray-600">
+                To promote effective learning, discipline, responsibility,
+                good values, and the overall development of students through
+                education.
               </p>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16 px-6 bg-gray-100">
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-12">
-            <p className="text-orange-500 font-bold uppercase tracking-widest">
+      {/* WHY CHOOSE US */}
+      <section className="bg-gray-100 px-6 py-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-12 text-center">
+            <p className="font-bold uppercase tracking-widest text-orange-500">
               School Life
             </p>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
+            <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
               Learning Beyond Books
             </h2>
 
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              Explore important aspects of education and student development.
+            <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+              Explore the important aspects of education, discipline, and
+              student development.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {/* EDUCATION CARD */}
+            <div className="rounded-xl bg-white p-6 text-center shadow-md transition hover:shadow-xl">
+              <FaBookOpen className="mx-auto text-4xl text-blue-900" />
 
-            <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
-              <div className="text-4xl">📚</div>
-              <h3 className="text-xl font-bold text-blue-950 mt-4">
-             शिक्षा
+              <h3 className="mt-4 text-xl font-bold text-blue-950">
+                Education
               </h3>
-              <p className="text-gray-600 mt-3 leading-7">
-               छात्रों के लिए सीखना और अकादमिक विकास।
+
+              <p className="mt-3 leading-7 text-gray-600">
+                Encouraging students to learn, gain knowledge, and improve
+                their academic skills.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
-              <div className="text-4xl">🤝</div>
-              <h3 className="text-xl font-bold text-blue-950 mt-4">
-            अनुशासन
+            {/* DISCIPLINE CARD */}
+            <div className="rounded-xl bg-white p-6 text-center shadow-md transition hover:shadow-xl">
+              <FaHandshake className="mx-auto text-4xl text-green-600" />
+
+              <h3 className="mt-4 text-xl font-bold text-blue-950">
+                Discipline
               </h3>
-              <p className="text-gray-600 mt-3 leading-7">
-               जिम्मेदारी और अच्छी आदतें विकसित करना।
+
+              <p className="mt-3 leading-7 text-gray-600">
+                Developing responsibility, good habits, respect, and positive
+                behaviour.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
-              <div className="text-4xl">🏆</div>
-              <h3 className="text-xl font-bold text-blue-950 mt-4">
-               गतिविधियाँ
+            {/* ACTIVITIES CARD */}
+            <div className="rounded-xl bg-white p-6 text-center shadow-md transition hover:shadow-xl">
+              <FaTrophy className="mx-auto text-4xl text-yellow-500" />
+
+              <h3 className="mt-4 text-xl font-bold text-blue-950">
+                Activities
               </h3>
-              <p className="text-gray-600 mt-3 leading-7">
-              खेल और अतिरिक्त पाठ्यक्रम के अवसर खोजें।
+
+              <p className="mt-3 leading-7 text-gray-600">
+                Exploring sports, creative activities, and opportunities to
+                develop new skills.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition">
-              <div className="text-4xl">🌟</div>
-              <h3 className="text-xl font-bold text-blue-950 mt-4">
-             विकास
+            {/* DEVELOPMENT CARD */}
+            <div className="rounded-xl bg-white p-6 text-center shadow-md transition hover:shadow-xl">
+              <FaStar className="mx-auto text-4xl text-orange-500" />
+
+              <h3 className="mt-4 text-xl font-bold text-blue-950">
+                Development
               </h3>
-              <p className="text-gray-600 mt-3 leading-7">
-            आत्मविश्वास और व्यक्तिगत विकास को प्रोत्साहित करना।
+
+              <p className="mt-3 leading-7 text-gray-600">
+                Encouraging confidence, communication, personal growth, and
+                independent thinking.
               </p>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* Classes Section */}
-      <section className="py-16 px-6 bg-white">
-        <div className="max-w-7xl mx-auto text-center">
-
-          <p className="text-orange-500 font-bold uppercase tracking-widest">
+      {/* CLASSES SECTION */}
+      <section className="bg-white px-6 py-16">
+        <div className="mx-auto max-w-7xl text-center">
+          <p className="font-bold uppercase tracking-widest text-orange-500">
             Academic Levels
           </p>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mt-3">
-       कक्षा 6 से 12 तक
+          <h2 className="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
+            Classes 6 to 12
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-600">
+            Explore the different academic levels and learning opportunities
+            available to students.
+          </p>
 
-            <div className="p-7 rounded-2xl bg-blue-50 border border-blue-100">
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {/* MIDDLE SCHOOL */}
+            <div className="rounded-2xl border border-blue-100 bg-blue-50 p-7 transition hover:-translate-y-1 hover:shadow-lg">
+              <FaSchool className="mx-auto mb-4 text-4xl text-blue-900" />
+
               <h3 className="text-2xl font-bold text-blue-950">
-          कक्षा 6 से 8 तक
+                Classes 6–8
               </h3>
-              <p className="text-gray-600 mt-3">
+
+              <p className="mt-3 text-gray-600">
                 Middle School
               </p>
             </div>
 
-            <div className="p-7 rounded-2xl bg-orange-50 border border-orange-100">
+            {/* SECONDARY SCHOOL */}
+            <div className="rounded-2xl border border-orange-100 bg-orange-50 p-7 transition hover:-translate-y-1 hover:shadow-lg">
+              <FaBookOpen className="mx-auto mb-4 text-4xl text-orange-500" />
+
               <h3 className="text-2xl font-bold text-blue-950">
-                कक्षा 9 से 10 तक
+                Classes 9–10
               </h3>
-              <p className="text-gray-600 mt-3">
+
+              <p className="mt-3 text-gray-600">
                 Secondary School
               </p>
             </div>
 
-            <div className="p-7 rounded-2xl bg-green-50 border border-green-100">
+            {/* SENIOR SECONDARY */}
+            <div className="rounded-2xl border border-green-100 bg-green-50 p-7 transition hover:-translate-y-1 hover:shadow-lg">
+              <FaGraduationCap className="mx-auto mb-4 text-4xl text-green-600" />
+
               <h3 className="text-2xl font-bold text-blue-950">
-             कक्षा 11 से 12 तक
+                Classes 11–12
               </h3>
-              <p className="text-gray-600 mt-3">
+
+              <p className="mt-3 text-gray-600">
                 Senior Secondary
               </p>
             </div>
-
           </div>
-
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="bg-blue-950 py-14 px-6 text-center text-white">
-        <div className="max-w-3xl mx-auto">
-
-          <h2 className="text-3xl md:text-4xl font-bold">
-            Discover Our Academic Programmes
+      {/* CALL TO ACTION */}
+      <section className="bg-blue-950 px-6 py-14 text-center text-white">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            Discover Our Academic Programs
           </h2>
 
-          <p className="text-blue-100 mt-4 leading-7">
-          क्लास 6 से क्लास 12 तक के छात्रों के लिए उपलब्ध अकादमिक जानकारी एक्सप्लोर करें।
+          <p className="mt-4 leading-7 text-blue-100">
+            Explore academic information and learning opportunities for
+            students from Classes 6 to 12.
           </p>
 
-          <a
-            href="/academics"
-            className="inline-block mt-7 bg-orange-500 px-7 py-3 rounded-lg font-bold hover:bg-orange-600 transition"
+          <Link
+            to="/academics"
+            className="mt-7 inline-flex items-center gap-2 rounded-lg bg-orange-500 px-7 py-3 font-bold transition hover:bg-orange-600"
           >
             View Academics
-          </a>
-
+            <FaArrowRight />
+          </Link>
         </div>
       </section>
-      <Footer/>
+
+      <Footer />
     </>
-  )
-}
-export default About
+  );
+};
+
+export default About;
