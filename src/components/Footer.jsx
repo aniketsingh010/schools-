@@ -196,7 +196,8 @@ const Footer = () => {
 
           <p className="text-gray-500 text-sm text-center">
             © {new Date().getFullYear()} Swadesh Saraswati Vidhya Mandir
-            Inter College. All rights reserved.
+            Inter College. 
+            All rights reserved.
           </p>
 
           <p className="text-gray-500 text-sm flex items-center gap-2">
